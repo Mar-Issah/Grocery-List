@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+
+        <!------- css ------------->
+     <link rel="stylesheet" href="/css/styles.css">
+		<!--------- font-awesome ----------->
+        <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+	<!------ section -------->
+	<div class="container">
+		<section class="section-center">
+			<!------ form ----->
+			<form class="grocery-form">
+				
+				<p class="alert"></p>
+				<h1>My Grocery List</h1>
+				<div class="form-control">
+					<input type="text" id="grocery" placeholder="example: milk">
+					<button type="submit" class="submit-btn">submit</button>
+				</div>
+			</form>
+			<!------ eof form ----->
+
+			<!---- display list ---->
+				<div class="grocery-container">
+					<div class="grocery-list">
+					 	<!-- <article class="grocery-item">
+							<p class="title">item</p>
+					
+							<div class="btn-container">
+								<button type="button" class="edit-btn"><i class="fas fa-edit"></i></button>
+								<button type="button" class="delete-btn"><i class="fas fa-trash"></i></button>
+							</div>
+						</article> -->
+						<!-- create another element (article) here in js which will appear only when you submit item. this article will take the above commented out objects-->
+					</div>
+					<button type="button" class="clear-btn">Clear Items</button>
+				</div>		
+				
+			<!---- eof display list ---->
+		
+		</section>
+		</div>
+	<!-----eof section ------>
+
+    <!-------- footer ------->
+		<footer>
+			<div class="footer">
+				<span>
+					Copyright &copy; <span id="date"></span>  | All rights reserved | mabe by <strong>Marsiya Issah</strong>|
+				<span>
+				<div></div>
+				<span class="span">Follow my</span>
+
+				<a
+					href="https://www.linkedin.com/in/marsiya-issah-8a481782/"
+					target="_blank"
+				>
+					<i class="fab fa-linkedin linkedin"></i>
+				</a>
+				<span class="span">Page</span>
+			</div>
+		</footer>
+
+		<!-- eof footer -->
+
+		<!-- javascript -->
+		<script src="/js/index.js"></script>
+
+
+
+</body>
+</html>

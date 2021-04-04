@@ -1,0 +1,225 @@
+/*=====================
+ global 
+======================*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+	/* ---------theme colors (varibale)---------- */
+	--clr-gray: #bdb8b1;
+	--clr-lg-grey: hsl(209, 61%, 16%);
+	--text-curry: #cc8523;
+	--text-curry2: rgb(205, 130, 35);
+	--clr-blue: #231a9c;
+	--clr-skyblue: #a1c9d4;
+	--transition: all 0.5s linear;
+	--clr-offwhite: #f2f2f2;
+	--b-radius: 0.5rem;
+	--clr-white: #fff;
+	--clr-black: #000000;
+	--b-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	--ff-open-sans: "Open Sans", sans-serif;
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 0.875rem;
+	font-family: var(--ff-open-sans);
+	color: var(--text-curry);
+	background: var(--clr-offwhite);
+}
+
+/*=====================
+ section 
+======================*/
+h1 {
+	transition: var(--transition);
+}
+
+.container {
+	min-height: 68vh;
+}
+.section-center {
+	width: 35rem;
+	margin: 0 auto;
+	margin-top: 7rem;
+	text-align: center;
+	height: auto;
+	background: var(--clr-white);
+	box-shadow: var(--b-shadow);
+	border-radius: var(--b-radius);
+	height: auto;
+	padding: 1.5rem 3rem;
+}
+
+.alert {
+	margin-bottom: 1.5rem;
+	height: 1.25rem;
+	font-size: 0.9rem;
+	border-radius: 0.25rem;
+	text-transform: capitalize;
+}
+
+/* add it in js */
+.alert-danger {
+	color: red;
+	background: #fca2a2;
+	letter-spacing: 3px;
+}
+
+/* add it in js */
+.alert-success {
+	color: var(--clr-blue);
+	background: var(--clr-offwhite);
+}
+.form-control {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: center;
+	padding: 0 1.5rem;
+}
+
+#grocery {
+	padding-left: 1rem;
+	background: var(--clr-offwhite);
+	border-top-left-radius: var(--b-radius);
+	border-bottom-left-radius: var(--b-radius);
+	border-color: transparent;
+	font-size: 1rem;
+	flex: 1 0 auto;
+	color: var(--clr-grey-5);
+}
+
+.submit-btn {
+	background: var(--clr-skyblue);
+	border-color: transparent;
+	flex: 0 0 5rem;
+	display: grid;
+	align-items: center;
+	padding: 0.25rem;
+	letter-spacing: 2px;
+	border-top-right-radius: var(--b-radius);
+	border-bottom-right-radius: var(--b-radius);
+	cursor: pointer;
+	transition: var(--transition);
+	font-size: 0.85rem;
+}
+
+.submit-btn:hover {
+	background: var(--clr-blue);
+	color: var(--clr-white);
+}
+
+.grocery-container {
+	border-radius: var(--b-radius);
+	margin: 1rem 1.725rem;
+	visibility: hidden;
+}
+
+/* used to toggle the grocery-container */
+.show-container {
+	visibility: visible;
+}
+
+.grocery-list {
+	font-size: 1rem;
+	color: var(--clr-lg-grey);
+}
+.grocery-item {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+	transition: var(--transition);
+	padding: 0.25rem 0.5rem;
+	border-radius: var(--b-radius);
+	text-transform: capitalize;
+}
+
+.grocery-item:hover {
+	background: var(--clr-offwhite);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.edit-btn,
+.delete-btn {
+	border-color: transparent;
+	background: transparent;
+	margin-left: 0.3rem;
+	cursor: pointer;
+	transition: var(--transition);
+}
+
+.edit-btn {
+	color: var(--clr-blue);
+}
+
+.delete-btn {
+	color: red;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+	transform: scale(1.1);
+}
+.clear-btn {
+	padding: 0.5rem 1rem;
+	display: grid;
+	align-items: center;
+	background: var(--clr-skyblue);
+	color: var(--clr-black);
+	border-radius: var(--b-radius);
+	border-color: transparent;
+	margin: 0 auto;
+	font-size: 0.85rem;
+	cursor: pointer;
+	transition: var(--transition);
+	margin-top: 2rem;
+}
+
+.clear-btn:hover {
+	background: var(--clr-blue);
+	color: var(--clr-white);
+}
+/*=====================
+ footer 
+======================*/
+
+footer {
+	margin-top: 2rem;
+	display: block;
+	width: 100%;
+	background: var(--clr-gray);
+	text-align: center;
+	padding: 1.5rem 0.5rem;
+	color: var(--text-curry);
+	font-size: 0.95rem;
+}
+
+.linkedin {
+	color: var(--clr-blue);
+}
+
+/*=====================
+ media  
+======================*/
+@media (min-width: 900px) {
+	body {
+		font-size: 1.5rem;
+	}
+
+	.section-center {
+		width: 40rem;
+	}
+
+	.grocery-list {
+		align-self: center;
+	}
+}
