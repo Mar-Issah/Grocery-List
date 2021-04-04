@@ -1,4 +1,4 @@
-//**********SELECT ITEMS***********
+//**********retrieve elements***********
 const alert = document.querySelector(".alert");
 const form = document.querySelector(".grocery-form");
 const grocery = document.getElementById("grocery");
