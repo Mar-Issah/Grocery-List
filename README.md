@@ -1,5 +1,5 @@
 # Grocery List
-A web application to demonstrate my skills in HTML5, CSS3 and JavaScript.
+A web application to demonstrate my skills in HTML5, CSS3 and JavaScript
 
 ## About The Project
 This app allows you to create a grocery/ shopping list on your computer
