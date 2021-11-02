@@ -1,4 +1,4 @@
-/*=====================
+/*====================
  global 
 ======================*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
@@ -36,7 +36,7 @@ body {
 	background: var(--clr-offwhite);
 }
 
-/*=====================
+/*====================
  section 
 ======================*/
 h1 {
