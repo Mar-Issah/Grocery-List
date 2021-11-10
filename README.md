@@ -41,7 +41,7 @@ This is JavaScript Web application which runs in the browser. You need a V8 engi
 
 ## Project View
 
-[Click here](https://codepen.io/marsiya-issah/full/ZELyEZb) to view project on CodePen
+[Click here](https://codepen.io/marsiya-issah/full/ZELyEZb) to view project on CodePen.
 
 ![Grocery List](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617543115/My%20Website%20Projects/grocery_list2_sccjhi.png)
 
