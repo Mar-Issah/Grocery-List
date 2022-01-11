@@ -2,7 +2,7 @@
 A web application to demonstrate my skills in HTML5, CSS3 and JavaScript.
 
 ## About The Project
-This app allows you to create a grocery/ shopping list on your computer
+This app allows you to create a grocery/ shopping list on your computer.
 ![Grocery List](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617543117/My%20Website%20Projects/grocery_list_j3tlg6.png)
 
 
