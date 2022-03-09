@@ -109,7 +109,7 @@ h1 {
 	border-bottom-right-radius: var(--b-radius);
 	cursor: pointer;
 	transition: var(--transition);
-	font-size: 0.85rem;
+	font-size: 0.875rem;
 }
 
 .submit-btn:hover {
