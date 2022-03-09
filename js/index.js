@@ -49,7 +49,7 @@ function addItem(e) {
   }
 }
 
-//----------------------------------.----------------------
+//--------------------------------------------------------
 
 function displayAlert(text, action) {
   alert.textContent = text;
