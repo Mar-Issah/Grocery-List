@@ -1,10 +1,10 @@
 /*====================
- global 
+ global
 ======================*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 :root {
-	/* ---------theme colors (varibale)---------- */
+	/* ---------theme colors (varibale)----------- */
 	--clr-gray: #bdb8b1;
 	--clr-lg-grey: hsl(209, 61%, 16%);
 	--text-curry: #cc8523;
@@ -37,7 +37,7 @@ body {
 }
 
 /*====================
- section 
+ section
 ======================*/
 h1 {
 	transition: var(--transition);
@@ -189,7 +189,7 @@ h1 {
 	color: var(--clr-white);
 }
 /*=====================
- footer 
+ footer
 ======================*/
 
 footer {
@@ -208,7 +208,7 @@ footer {
 }
 
 /*=====================
- media  
+ media
 ======================*/
 @media (min-width: 900px) {
 	body {
